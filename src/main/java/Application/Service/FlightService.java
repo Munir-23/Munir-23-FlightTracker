@@ -94,7 +94,7 @@ public class FlightService {
      * @return all flights in the database.
      */
     public List<Flight> getAllFlights() {
-        return null;
+        return flightDAO.getAllFlights();
     }
 
     /**
